@@ -1,0 +1,48 @@
+
+
+/* Global Classes */ 
+
+.title-text{
+    font: normal bold 300%/ 80% var(--roboto);
+}
+
+.text-uppercase{
+    text-transform: uppercase;
+}
+
+/* Buttons */ 
+
+
+
+p.para{
+    color: var(--text-color);
+    font: normal var(--roboto);
+}
+
+.font-roboto{
+    font-family: var(--roboto);
+}
+
+
+.title-h1{
+    font: normal bold 250% / 40% var(--roboto);
+    margin-bottom: 3%;
+    margin-top: 4%;
+}
+
+
+.navbar_fixed{
+    position: fixed;
+    width: 100%;
+    top: -1px;
+    left: 0; right: 0;
+    background: #ffffff;
+    box-shadow: var(--box-shadow);
+    z-index: 999;
+    transition: background 1s ease;
+}
+
+h3, h4{
+   font-size: 140%;
+}
+

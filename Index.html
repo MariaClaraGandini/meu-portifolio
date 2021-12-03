@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content=" Maria Clara Gandini Pereira- Webdesigner">
+    <title>Clara Gandini</title>
+
+
+    <!--  Bootstrap css file  -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <!--  font awesome icons  -->
+    <link rel="stylesheet" href="./css/all.min.css">
+
+
+    <!--  Magnific Popup css file  -->
+    <link rel="stylesheet" href="./vendor/Magnific-Popup/dist/magnific-popup.css">
+
+
+    <!--  Owl-carousel css file  -->
+    <link rel="stylesheet" href="./vendor/owl-carousel/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./vendor/owl-carousel/css/owl.theme.default.min.css">
+
+
+    <!--  custom css file  -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!--  Responsive css file  -->
+    <link rel="stylesheet" href="./css/responsive.css">
+    <script src="./js/acessibidade.js"></script>
+</head>
+
+<body>
+
+
+    <!--  ======================= Start Header Area ============================== -->
+
+    <header class="header_area" id="inicio" onload="iniciarLocalStorage()">
+        <div class="main-menu">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#"><img src="./img/logo-texto.png" alt="Logo da Maria Clara Gandini" class="logo"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="mr-auto"></div>
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#home"  accesskey="1" title="Alt 1">Início </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#formation" accesskey="2" title="Alt 2">Formação</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#experience" accesskey="3" title="Alt 3">Experiência</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#portifolio" accesskey="4" title="Alt 4">Portifólio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact" accesskey="5" title="Alt 5">Contato</a>
+                            </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#"onclick="aumentar()" accesskey="6" title="Alt 6">Aumentar</a>
+                        </li>
+                        <li class="nav-item">
+                         <a  class="nav-link" href="#" onclick="diminuir()" accesskey="7" title="Alt 7">Diminuir</a>                        
+                        </li>
+                        <li class= "nav-item"><a  class="nav-link" href="#altocontraste" id="altocontraste" accesskey="8" title="Alt 8" onclick="window.toggleContrast()" onkeydown="window.toggleContrast()">Alto contraste</a></li>
+
+                    </ul>
+                </div>
+                </nav>
+    </header>
+
+    <!--  ======================= End Header Area ============================== -->
+
+    <!--  ======================= Start Main Area ================================ -->
+    <main class="site-main" >
+    </div>  
+        <!--  ======================= Start Banner Area =======================  -->
+        <section class="site-banner" id="home">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 site-title">
+                        <div>
+                        <h3 class="title-text">Olá, bem-vindo(a)!</h3>
+                        <h1 class="title-text">Eu sou a Clara!</h1>
+                        <h4 class="title-text text-uppercase mt-3">Web Designer • Vendedora • Social Media</h4>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 banner-image">
+                    <img src="./img/banner/banner-2.png" alt="Foto da Maria Clara Gandini Pereira" longdesc=" Maroa Clara Gandini Pereira usando um blazer e blusa de bolinhas em um fundo roxo">
+                </div>
+            </div>
+            </div>
+        </section>
+        <!--  ======================= End Banner Area =======================  -->
+
+        <!--  ========================= About Area ==========================  -->
+
+        <!--  ========================= SERVICES = FORMAÇÃO ==========================  -->
+        <section class="formation-area" id="formation">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center formation-title">
+                        <h1 class="text-uppercase title-text">Formação</h1>
+                    </div>
+                </div>
+                <div class="container formation-list">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-lg-6 col-md-8 col-sm-12">
+                            <div class="formation">
+                                <div class="formation-img text-center py-3">
+                                    <img src="./img/services/recursoshumanos.png" alt="ícone do curso Recursos Humanos" longdesc="ícone de três pessoas sem rosto para indicar pessoas genéricas; e elas estão uma ao lado da outra na cor roxa">
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title text-uppercase font-roboto">Recursos Humanos</h5>
+                                    <p class="card-text text-secondary py-1">
+                                        <b>Formação:</b> Curso Técnico <br>
+                                        <b>Instituição:</b> Etec Sylvio de Carvalho <br>
+                                        <b>Início:</b> Julho/2019<br>
+                                 <b> Conclusão:</b> Dezembro/2020
+                        
+                                    </p>
+                                <button class="btn btn-link mt-3"> Ver Matriz Curricular</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="formation">
+                                <div class="formation-img text-center py-4 ">
+                                    <img src="./img/services/s1.png" alt="ícone Sistemas para Internet" longdesc=" mouse roxo com fio sendo utilizado como ícone de Sistemas para Internet">
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title text-uppercase text-center font-roboto mt-3 ">Sistemas para Internet</h5>
+                                    <p class="card-text text-secondary mt-2">
+                                        <b>Formação:</b> Faculdade Tecnóloga <br>
+                                        <b>Instituição:</b> Fatec de Taquaritinga <br>
+                                        <b>Início:</b> Janeiro/2021<br>
+                                        <b> Previsão de término :</b> Dezembro/2024
+                                           </p>
+                                        
+                                       <button class="btn btn-link mt-2"> Ver Matriz Curricular</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+        <!--  ========================EXPERIENCE ==============================  -->
+        <section class="services-area my-n5" id="experience">
+            <div id="container"class="container my-n5">
+                <div class="row">
+                    <div class="col-lg-12 text-center services-title">
+                        <h1 class="text-uppercase title-text experience-title">EXPERIÊNCIAS</h1>
+                        <p class="para">
+                        <b>ESTÁGIO:</b> Loja HRB Kids
+                        </p>
+                        <p class="para">
+                            <b>TURNO:</b> Vespertino
+                            </p>
+                        <p class="para">
+                                <b>TRABALHO:</b> De 28/09/2020 até atualmente.
+                                </p>
+                    </div>
+            
+            <div class="col-lg-12 text-center d-flex justify-content-center">
+                <img src="./img/experience/carrinho-de-compras.png" class=" experience" >
+                <h3 class="text-uppercase text-center mt-2 ">E-commerce</h3>
+            </div>
+            <div class="col-lg-12 ml-3 text-center services-title ">
+                <p class="para ">
+                    Experiência com o e-commerce Mercado Livre + as ferramentas Tray Commerce e Bling.
+                </p>
+            </div>
+            <div class="col-lg-12 d-flex justify-content-center">
+               <img src="./img/experience/celular.png" class=" experience1" alt="ícone de celular" longdesc=" pessoa segurando o celular na mão. " >
+               <h3 class="text-uppercase text-center mt-2">Social Media </h3>
+           </div>
+
+            <div class="col-lg-12 ml-3 text-center services-title ">
+                <p class="para ">
+                   Postagens diárias, apresento lives e gerencio as redes sociais, com a finalidade de atrair seguidores e mais pessoas conhecerem a loja!
+                </p>
+           </div>
+            <div class="col-lg-12 text-center d-flex justify-content-center">
+                <img src="./img/experience/ferramentas-de-design.png" class=" experience" alt="ícone webdesign" longdesc="ferramenta dos programas Adobe Photoshop/llustrator utilizada por webdesigners ">
+                <h3 class="text-uppercase text-center mt-3">WebDesign </h3>
+            </div>
+
+            <div class="col-lg-12 ml-3 text-center services-title ">
+               <p class="para ">
+                    Criação de artes com Adobe Photoshop e Adobe Illustrator para web.
+                 </p>
+            </div>
+               <div class="col-lg-12 text-center d-flex justify-content-center">
+                    <img src="./img/experience/bolsa-de-compras.png" class=" experience" alt="ícone de vendas" longdesc=" três sacolas usadas como ícone para vendas." >
+                    <h3 class="text-uppercase text-center mt-2"> Vendas</h3>
+            </div>
+
+            <div class="col-lg-12 ml-3 text-center services-title ">
+                <p class="para ">
+                     Atendimento ao cliente on-line e presencial, determinando suas necessidades e promover as soluções delas.<br> 
+                     Além disso, resolver prontamente possíveis reclamações e garantir sua satisfação.
+                  </p>
+             </div>
+
+
+             <div class="col-lg-12 text-center d-flex justify-content-center">
+                <img src="./img/experience/caixa-de-dinheiro.png" class=" experience1" alt=" ícone de caixa registradora" longdesc=" caixa registradora como ícone para simbolizar operador de caixa.">
+                <h3 class="text-uppercase text-center mt-2"> Operadora de Caixa </h3>
+        </div>
+
+             <div class="col-lg-12 ml-3 text-center services-title ">
+            <p class="para ">
+                 Registro da venda no sistema Bling, informar e cobrar o valor final ao cliente, recebendo o dinheiro e emitindo a nota fiscal.
+              </p>
+         </div>
+
+         </div>
+        </section>
+
+
+
+        <!--  ======================= Portifolio =============================  -->
+
+        <section class="project-area" id="portifolio">
+            <div class="container">
+                <div class="row">
+                <div class="col-lg-12 d-flex justify-content-center text-center services-title ">
+                    <h1 class="text-uppercase text-center title-h1">Portifólio</h1>
+                </div>
+            </div>
+                <article class="row grid">
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item latest">
+                        <div class="our-project">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/portfolio/p1.png">
+                                    <img src="./img/portfolio/p1.png" alt="anúncio de live no instagram" class="img-fluid" longdesc="Arte de fundo azul marinho com um celular aberto no instagram anunciando a Live dia 22/07">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">Live</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item popular">
+                        <div class="our-project">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/portfolio/p2.png">
+                                    <img src="./img/portfolio/p2-1.jpeg" alt="placa de loja infantil" class="img-fluid" class="" longdesc="Placa de loja infantil com logo, rede sociais, site e whatsapp ">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">Placa de loja</h4>                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item popular">
+                        <div class="our-project">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/portfolio/p3.png">
+                                    <img src="./img/portfolio/p3.png" alt="arte falando sobre uma campanha de arrecadação de Leite" class="img-fluid" longdesc="criativo com fundo azul e branco sobre uma doação de leite em prol do Hospital da cidade de Matão-SP  ">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">Arrecadação de Leite</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
+                        <div class="our-project">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/portfolio/p4.png">
+                                    <img src="./img/portfolio/p4-1.png" alt="banner para youtube" class="img-fluid" longdesc="Banner para o canal Redação Aplicada, o fundo é uma folha de caderno com o escrito - Faça da discursiva o diferencial da sua aprovação!">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">Banner para Youtube</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
+                        <div class="our-project">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/portfolio/p5.png">
+                                    <img src="./img/portfolio/p5.png" alt="retrato com foto de casal para o dia dos namorados" class="img-fluid" longdesc=" fotos de casal dentro das letras A-M-O-R com a frase Tu me és e eu te sou com a combinação do nome do casal BelaMur de Isabela e Murilo">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">Dia dos namorados</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item following">
+                        <div class="our-project">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/portfolio/p6.png">
+                                    <img src="./img/portfolio/p6.png" alt="protótipo de um e-commerce " longdesc=" Protótipo do e-commerce de uma loja infantil HRB Kids" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">Protótipo de site</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item following">
+                        <div class="our-project">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/portfolio/p7.jpg">
+                                    <img src="./img/portfolio/p7.jpg" alt="ação promocional de loja" class="img-fluid" longdesc=" sábado especial na loja HRB Kids, um dia cheio de descontos, pipoca e sorteios!">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">Ação de loja</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item following">
+                        <div class="our-project">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/portfolio/p8.jpg">
+                                    <img src="./img/portfolio/p8.jpg" alt="arte falando sobre a live feita no instagram" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">LIVE INSTAGRAM</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
+                        <div class="our-project">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/portfolio/p9.png">
+                                    <img src="./img/portfolio/p9.png" alt="arte anunciando um sorteio nas rede sociais" class="img-fluid" longdesc=" sorteio de R$150 em compras na loja de roupas e acessórios infantis HRB Kids">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">Sorteio</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
+                        <div class="our-project">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/portfolio/p10-1.jpg">
+                                    <img src="./img/portfolio/p10.jpeg" alt="QR Code para avaliar no google a loja HRB Kids" class="img-fluid" longdesc=" sorteio de R$150 em compras na loja de roupas e acessórios infantis HRB Kids">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">Avaliação google</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
+                        <div class="our-project">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/portfolio/p11.png">
+                                    <img src="./img/portfolio/p11.png" alt= "Arte de brechó infantil " class="img-fluid" longdesc="arte anunciando que toda terça tem kit de peças de brechó infantil">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">BRECHÓ INFANTIL</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
+                        <div class="our-project">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/portfolio/p12.png">
+                                    <img src="./img/portfolio/p12.png" alt= "Best Friday na HRB Kids " class="img-fluid" longdesc="arte anunciando que terá promoções no período da Black Friday na loja infantil HRB Kids.">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">Best Friday</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+     
+        </section>
+
+
+    </main>
+    <!--  =======================CONTATO E FOOTER ================================ -->
+
+    <footer class="footer-area" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 d-flex justify-content-center text-center services-title ">
+                    <h1 class="text-uppercase text-center title-h1">Contato</h1>
+                </div>
+                <div class="col-lg-12 social text-center">
+                    <a href="#"><i class="fab fa-facebook">Clara Gandini Pereira</i></a>
+                    <a href="#"><i class="fab fa-instagram"> @claragandinipereira</i></a>
+                    <img src="./img/footer/phone.svg" alt="ícone telefone" class="ml-2">
+                    <p class="fab info">(16)99709-0575</p>
+                </div>
+                <div class="col-lg-12 social text-center">
+                    <img src="./img/footer/email-fast-outline.svg">
+                    <p class="fab info">mariaclaragandinipereira175@gmail.com</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!--  Jquery js file  -->
+    <script src="./js/jquery.3.4.1.js"></script>
+
+    <!--  Bootstrap js file  -->
+    <script src="./js/bootstrap.min.js"></script>
+
+    <!--  isotope js library  -->
+    <script src="./vendor/isotope/isotope.min.js"></script>
+
+    <!--  Magnific popup script file  -->
+    <script src="./vendor/Magnific-Popup/dist/jquery.magnific-popup.min.js"></script>
+
+    <!--  Owl-carousel js file  -->
+    <script src="./vendor/owl-carousel/js/owl.carousel.min.js"></script>
+
+    <!--  custom js file  -->
+    <script src="./js/main.js"></script>
+
+
+</body>
+
+</html>

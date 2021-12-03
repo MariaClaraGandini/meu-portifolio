@@ -1,0 +1,215 @@
+
+/* import fonts from fonts.css file */ 
+@import url(./fonts.css);
+
+
+/* css variables */ 
+@import url(./partials/_variables.css);
+
+/* import global styling */ 
+@import url(./partials/_global.css);
+
+
+/* start navigation */ 
+
+body{
+    font-size: 16px;
+}
+.header_area .main-menu .navbar .navbar-brand{
+    padding: 0 2rem 0 5rem;
+  
+}
+
+.header_area .main-menu .navbar{
+    padding: 1rem 20rem ;
+}
+
+.logo{
+    width: 40%;
+}
+
+/* end navigation */ 
+
+/* Banner Area */ 
+
+.site-main .site-banner .site-title h3{
+    padding-top: 35%;
+    font-weight: 500;
+}
+
+
+
+.site-main .site-banner .site-title h1{
+    font-size: 500%;
+}
+
+.site-main .site-banner .site-title h4{
+    font-size: 150%;
+    
+}
+
+.banner-image{
+    width: 60%;
+}
+
+
+
+/* End Banner Area */ 
+
+/* Start About Area */ 
+
+.site-main .about-area{
+    padding: 8rem 5rem;
+}
+
+.site-main .about-area .about-title .paragraph > p{
+    padding: .4rem 0;
+}
+
+
+/* Start Experience Area */ 
+
+
+.experience{
+    width: 50px;
+    height: 50px;
+}
+
+.experience1{
+    width: 50px;
+    height: 50px;
+}
+
+/* End Experience Area */ 
+
+/* Services- EX Area */ 
+
+.formation{
+    height: 100%;
+    width: 100%;
+
+}
+.site-main .formation-area{
+    padding: 5%;
+}
+
+.site-main .formation-area .formation-title{
+    padding: 0 14rem;
+}
+
+.site-main .formation-area .formation-title h1{
+    font-size: 300%;
+}
+
+.site-main > .formation-area .formation{
+    background: rgba(248, 252, 253, 0.973);
+    width: 20rem;
+    margin: 1rem .2rem;
+    transition: box-shadow .7s ease;
+}
+
+.site-main > .formation-area .formation:hover{
+    box-shadow: var(--box-shadow);
+}
+
+
+
+
+/* End Services Area */ 
+
+
+/* Project Area */ 
+
+.site-main .project-area{
+    padding: 4rem 0;
+}
+
+
+.site-main .project-area .grid .our-project > .title h4{
+    font: normal bold 150%  var(--roboto);
+}
+
+.site-main .project-area .grid .our-project .img a:hover img{
+    filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+}
+
+
+/* End FOOTER Area */ 
+
+
+
+footer.footer-area{
+    padding: 5rem 0;
+    background: url(../img/footer-bg.png) no-repeat;
+}
+
+footer.footer-area .social h5{
+    font: normal 500 23px/ 30px var(--roboto);
+}
+
+footer.footer-area .social a > i{
+    font-size:22px;
+    padding: 1rem;
+    color: var(--footer-text);
+}
+
+footer.footer-area .social a:hover > i{
+    color: var(--primary-color);
+}
+
+.info{
+    font-size:22px;
+    color: var(--footer-text);
+}
+
+
+/*  CONSTRASTE */
+.contrast,
+.contrast nav,
+.contrast div,
+.contrast li,
+.contrast ol,
+.contrast header,
+.contrast footer,
+.contrast section,
+.contrast main,
+.contrast aside,
+.contrast article {
+    background: black !important;
+    color: white !important;
+}
+
+.contrast h1,
+.contrast h2,
+.contrast h3,
+.contrast h4,
+.contrast h5,
+.contrast h6,
+.contrast p,
+.contrast label,
+.contrast strong,
+.contrast em,
+.contrast cite,
+.contrast q,
+.contrast i,
+.contrast b,
+.contrast u,
+.contrast span {
+    color: white !important;
+}
+
+.contrast a{
+    color: yellow !important;
+}
+
+.contrast button,
+.contrast input[type=button],
+.contrast input[type=reset],
+.contrast input[type=submit] {
+    background: black !important;
+    color: yellow !important;
+    border: none !important;
+}
+
+
+/* End Footer */ 
